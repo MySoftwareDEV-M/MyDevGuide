@@ -2,4 +2,4 @@
 ./venv
 
 # Ignore the precompiled Python code
-__pycache__
+*__pycache__
