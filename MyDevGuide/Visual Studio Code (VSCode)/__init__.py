@@ -21,4 +21,6 @@ Extensions, I use
     - choose an interpreter
     <br> for example "Python 3.11.9 64-bit (Microsoft Store)"
     <br> this creates the Python environment. The folder ".venv" will be created.
+- install Python package `pdoc`
+
 '''
