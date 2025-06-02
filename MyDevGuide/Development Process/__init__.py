@@ -46,8 +46,8 @@ git subtree split -P "My Modul A" -b v1.0
 git push –set-upstream origin v1.0
 
 # Split the version of the modules documentation into its version branch and push it
-git subtree split -P "docs" -b "v1.0 doc"
-git push –set-upstream origin "v1.0 doc"
+git subtree split -P "docs" -b v1.0_doc
+git push –set-upstream origin v1.0_doc
 
 # Push the commits
 git push
