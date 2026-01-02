@@ -7,10 +7,10 @@ In general I try to use markup notiation with a little HTML, to keep it simple.
 # Run pdoc
 
 ``` shell
-pdoc '.\My Module A\' -o .\docs
+.\.venv\Scripts\pdoc "My Module A" -o "docs"
 
 # If source shall not be integrated / shown within the HTML
-pdoc '.\My Module A\' --no-show-source -o .\docs
+.\.venv\Scripts\pdoc "My Module A" --no-show-source -o "docs"
 ```
 
 # Structure (headings, lists)
